@@ -8,62 +8,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bognár András</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <style>
-        .body-grid {
-            grid-template-rows: min-content;
-            display: grid;
-            box-shadow: inset 0px 0px 15px 2px #23395e;
-            background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
-            background-color: #2e466e;
-            border-radius: 17px;
-            border: 1px solid #1f2f47;
-            color: #ffffffb2;
-            font-size: 14px;
-            font-weight: bold;
-            padding: 12px 16px;
-            margin: 5px;
-        }
-
-        span {
-            color:aquamarine;
-        }
-        a {
-            color: hotpink;
-        }
-        img{
-            border-radius: 50px;
-            justify-self:center;
-        }
-        html{
-            background-color:black;
-        }
-    </style>
+    <link rel="stylesheet" href="cv.css">
 </head>
 <body>
     <div class="body-grid">
-        <h1 style="text-align: center;">Helló, a nevem Bognár András</h1>
-        <h2> Ez egy bemutatkozó oldal!</h2>
-        <p>A Budapesti Corvinus Egyetemen vagyok gazdaságinformatikus hallgató. <br>21 éves vagyok és hobbijaim a <span>zenélés és programozás.</span>
-        Van egyébként weboldalam webfejlesztéből, csekkold le:
-        </p>
-        <a href="http://web.uni-corvinus.hu/~jzr5mg/">A SAJÁT WEBFEJLES WEBLAPOM</a>
-        <div>
-            <p>Nagyon szeretem ezeket a sportokat:</p>
-            <ul>
-                <li>Kondizás</li>
-                <li>Foci</li>
-                <li>Floorball</li>
-                <li>Tollas</li>
-            </ul>
-            <p>Egyéb dolgok amiker szeretek:</p>
-            <ol>
-                <li>Zenét hallgatni</li>
-                <li>Zenét írni</li>
-                <li>Zenélni</li>
-                <li>Zenét tanítani</li>
-            </ol>
+        <div class="header">
+            <h1 style="text-align: center;">Helló, a nevem Bognár András</h1>
+            <h2> Ez egy bemutatkozó oldal!</h2>
         </div>
-        <img src="https://www.languagecoursesuk.co.uk/wp-content/uploads/2020/06/Hello-in-different-languages-1024x683.jpg" alt="szia"/>
-    </div>
+        <div class="content">
+            <p>
+                A Budapesti Corvinus Egyetemen vagyok gazdaságinformatikus hallgató. <br>21 éves vagyok és hobbijaim a <span>zenélés és programozás.</span>
+                Van egyébként weboldalam webfejlesztéből, csekkold le:
+            </p>
+            <a href="http://web.uni-corvinus.hu/~jzr5mg/">A SAJÁT WEBFEJLES WEBLAPOM</a>
+            <div id="listak">
+                <p>Nagyon szeretem ezeket a sportokat:</p>
+                <ul>
+                    <li>Kondizás</li>
+                    <li>Foci</li>
+                    <li>Floorball</li>
+                    <li>Tollas</li>
+                </ul>
+                <p>Egyéb dolgok amiker szeretek:</p>
+                <ol>
+                    <li>Zenét hallgatni</li>
+                    <li>Zenét írni</li>
+                    <li>Zenélni</li>
+                    <li>Zenét tanítani</li>
+                </ol>
+            </div>
+        </div>
+        <div class="footer">
+            <img src="https://www.languagecoursesuk.co.uk/wp-content/uploads/2020/06/Hello-in-different-languages-1024x683.jpg" alt="szia" />
+        </div>    
+     </div>
 </body>
 </html>
