@@ -15,19 +15,20 @@
 
         <div id="középső">
             <div id="válaszok">
-                <div id="válasz1" class="kerdes">Válasz 1</div>
-                <div id="válasz2" class="kerdes">Válasz 2</div>
-                <div id="válasz3" class="kerdes">Válasz 3</div>
+                <div id="válasz1" class="kerdes" onClick="szinezés(this.id)">Válasz 1</div>
+                <div id="válasz2" class="kerdes" onClick="szinezés(this.id)">Válasz 2</div>
+                <div id="válasz3" class="kerdes" onClick="szinezés(this.id)">Válasz 3</div>
             </div>
             <div id="kép">
                 <img id="kép1" src="https://szoft1.comeback.hu/hajo/teszt-0050.jpg" />
             </div>
         </div>
         <div class="vezérlő">
-            <div class="shine">Vissza</div>
+            <div class="shine" onclick="vissza()">Vissza</div>
             <div></div>
             <div></div>
-            <div class="shine">Előre</div>
+            <div class="shine" onclick="előre()">Előre</div>
         </div>
     </div>
+    <script src="hetedik.js"></script>
 </body>

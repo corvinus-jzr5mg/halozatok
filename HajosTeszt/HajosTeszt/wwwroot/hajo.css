@@ -44,13 +44,13 @@ body {
     margin: 2px;
 }
 
-    #válaszok > div {
-        margin: 1em;
-        background-color: crimson;
-        border: darkgray 2px solid;
-        border-radius: 10px;
-        padding: 10px;
-    }
+.kerdes {
+    margin: 1em;
+    background: white;
+    border: darkgray 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
 
 #kép {
     display: grid;
